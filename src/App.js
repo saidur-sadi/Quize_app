@@ -89,7 +89,7 @@ class App extends Component {
           description:'Git is a distributed version control system, tracking changes in source code. Facilitates collaboration, branching, merging, and history management efficiently.',
           subQuiz: [
             {
-              name: 'Quiz 1', questions: '6', time: '30 sec', score: false,
+              name: 'Quiz 1', questions: '4', time: '30 sec', score: false,
               qArr: [
                 {
                   question: "What is the purpose of the 'git clone' command in Git?",
