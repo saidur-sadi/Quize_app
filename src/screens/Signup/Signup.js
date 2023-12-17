@@ -4,12 +4,6 @@ import Header from '../../components/Header/Header'
 
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
-
-// import Grid from '@material-ui/core/Grid';
-// import Email from '@material-ui/icons/Email';
-// import Lock from '@material-ui/icons/Lock';
-
-// import Input from '@material-ui/core/Input';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import InputAdornment from '@material-ui/core/InputAdornment';

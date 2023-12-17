@@ -16,36 +16,36 @@ class App extends Component {
       quizzes: [
 
         {
-          name: 'HTML',
-          image: require("./images/html.jpg") ,
-          description:'HTML stands for HyperText Markup Language, It defines the structure of a Web document by using a variety of tags and attributes.',
+          name: 'React',
+          image: require("./images/react.jpg") ,
+          description:'React is a JavaScript library for building dynamic user interfaces efficiently. Developed by Facebook, it uses a virtual DOM and a declarative approach, allowing developers to create reusable components that update in response to data changes. Ideal for building interactive web applications.',
           subQuiz: [
             {
               name: 'Quiz 1', questions: '3', time: '30 sec', score: false,
               qArr: [
                 {
-                  question: "What is use for image insertion?",
-                  option1: "img",
-                  option2: "h1",
-                  option3: "none",
-                  option4: "body",
-                  answer: "1"
+                  question: "What is the purpose of the 'useState' hook in React?",
+                  option1: "To declare a variable",
+                  option2: "To manage state in functional components",
+                  option3: "To create a new component",
+                  option4: "To perform a network request",
+                  answer: "2"
                 },
                 {
-                  question: "To underline the text?",
-                  option1: "u",
-                  option2: "underline",
-                  option3: "style",
-                  option4: "none",
-                  answer: "1"
+                  question: "How can you conditionally render content in React?",
+                  option1: "Using the if-else statement",
+                  option2: "Using the ternary operator",
+                  option3: "Using the switch statement",
+                  option4: "React does not support conditional rendering",
+                  answer: "2"
                 },
                 {
 
-                  question: "HTML stands for?",
-                  option1: "HYPER TEXT MARKUP LANGUAGE'",
-                  option2: "HTPER TEXT TELESCOPR",
-                  option3: "HELP TEXT TERMINAL LANGUAGE",
-                  option4: "NONE",
+                  question: "What is JSX in React?",
+                  option1: "JavaScript XML",
+                  option2: "Java Syntax Extension",
+                  option3: "JSON XML",
+                  option4: "JavaScript Extension",
                   answer: "1"
                 },
 
@@ -55,201 +55,80 @@ class App extends Component {
               name: 'Quiz 2', questions: '3', time: '30 sec', score: false,
               qArr: [
                 {
-                  question: "HTML use for?",
-                  option1: "structure",
-                  option2: "styling",
-                  option3: "scripting",
-                  option4: "none",
+                  question: "What is the significance of the virtual DOM in React?",
+                  option1: "It is an alternative to the actual HTML DOM used in React components.",
+                  option2: "It is a physical representation of the DOM in the browser.",
+                  option3: " It is used to create virtual reality experiences within React applications.",
+                  option4: "React does not use a virtual DOM",
                   answer: "1"
                 },
                 {
-                  question: "To underline the text?",
-                  option1: "u",
-                  option2: "underline",
-                  option3: "style",
-                  option4: "none",
-                  answer: "1"
+                  question: "Explain the concept of state in React?",
+                  option1: "It refers to the visual appearance of a React component.",
+                  option2: "It is a way to manage and store data within a React component.",
+                  option3: " It is a styling mechanism in React applications.",
+                  option4: "State is not applicable in React.",
+                  answer: "2"
                 },
                 {
 
-                  question: "HTML stands for?",
-                  option1: "HYPER TEXT MARKUP LANGUAGE'",
-                  option2: "HTPER TEXT TELESCOPR",
-                  option3: "HELP TEXT TERMINAL LANGUAGE",
-                  option4: "NONE",
-                  answer: "1"
+                  question: "What is the role of the 'ReactDOM.render()' method in a React application?",
+                  option1: "It is used to create a new React component.",
+                  option2: "It is responsible for rendering components into the HTML DOM.",
+                  option3: "It is used for applying styles to React components.",
+                  option4: " It is a deprecated method in React.",
+                  answer: "2"
                 }
               ]
             },
           ]
         },
         {
-          name: 'CSS',
-          image: require("./images/css.jpg") ,
-          description:'CSS stands for Cascading Style Sheets, It describes how HTML elements are to be displayed on screen, paper, or in other media.',
+          name: 'Git',
+          image: require("./images/git.jpg") ,
+          description:'Git is a distributed version control system, tracking changes in source code. Facilitates collaboration, branching, merging, and history management efficiently.',
           subQuiz: [
             {
               name: 'Quiz 1', questions: '6', time: '30 sec', score: false,
               qArr: [
                 {
-                  question: "Css stands for?",
-                  option1: "cascading style sheet'",
-                  option2: "cascade sheet style",
-                  option3: "color style sheet",
-                  option4: "contrast style sheet",
-                  answer: "1"
+                  question: "What is the purpose of the 'git clone' command in Git?",
+                  option1: "To create a new Git repository.",
+                  option2: "To copy a remote repository onto your local machine.",
+                  option3: "To delete a Git repository.",
+                  option4: "To rename a Git repository.",
+                  answer: "2"
                 },
                 {
-                  question: "to change the color we use",
-                  option1: "color:",
-                  option2: "setColor:",
-                  option3: "color-style",
-                  option4: "change-color",
-                  answer: "1"
+                  question: "What does the 'git commit' command do in Git",
+                  option1: ":It creates a new branch in Git.",
+                  option2: "It stages changes for commit in the local repository",
+                  option3: "It merges branches in Git.",
+                  option4: " It deletes the entire Git history",
+                  answer: "2"
                 },
                 {
-                  question: "How to link css?",
-                  option1: "using link",
-                  option2: "using button",
-                  option3: "using javascript",
-                  option4: "using img",
-                  answer: "1"
+                  question: "How do you create a new branch in Git?",
+                  option1: "git create-branch [branch name]",
+                  option2: "git branch new [branch name]",
+                  option3: "git checkout -b [branch name]",
+                  option4: "git new-branch [branch name]",
+                  answer: "3"
                 },
                 {
-                  question: "To change the color we use?",
-                  option1: "color:",
-                  option2: "setColor:",
-                  option3: "color-style",
-                  option4: "change-color",
-                  answer: "1"
-                },
-                {
-                  question: "How to link css?",
-                  option1: "using link",
-                  option2: "using button",
-                  option3: "using javascript",
-                  option4: "using img",
-                  answer: "1"
-                },
-                {
-                  question: "How to link css?",
-                  option1: "using link",
-                  option2: "using button",
-                  option3: "using javascript",
-                  option4: "using img",
-                  answer: "1"
-                },
-
-              ]
-            },
-          ]
-        },
-        {
-          name: 'JavaScript',
-          image:  require("./images/js3.jpg") ,
-          description:' JavaScript is a "client-side" programming language. JavaScript scripts are read, interpreted and executed in your Web browser.',
-          subQuiz: [
-            {
-              name: 'Quiz 1', questions: '4', time: '30 sec', score: false,
-              qArr: [
-                {
-                  question: "How to create alert box?",
-                  option1: "alert='hello world'",
-                  option2: "aler('hello world')",
-                  option3: "alert.('hello world')",
-                  option4: "alert('hello world')",
+                  question: "What does 'git push' do in Git?",
+                  option1: "It pulls changes from a remote repository.",
+                  option2: "It updates the local repository with changes from the remote repository.",
+                  option3: " It deletes a remote repository.",
+                  option4: "It pushes changes from the local repository to a remote repository.",
                   answer: "4"
                 },
-                {
 
-                  question: "How to initialize variable?",
-                  option1: "variable name = 'ali'",
-                  option2: "var name = 'ali'",
-                  option3: "variable: 'ali'",
-                  option4: "variable. 'ali'",
-                  answer: "2"
-                },
-                {
-
-                  question: "How to push value in array?",
-                  option1: "arr.push(value)",
-                  option2: "arr.push.value",
-                  option3: "arr.(value)",
-                  option4: "arr.value.push(value)",
-                  answer: "1"
-                },
-                {
-
-                  question: "What is javascript?",
-                  option1: "programming language",
-                  option2: "scripting language",
-                  option3: "coding language",
-                  option4: "web language",
-                  answer: "2"
-                },
-              ]
-            },
-            {
-              name: 'Quiz 2', questions: '6', time: '30 sec', score: false,
-              qArr: [
-                {
-
-                  question: "Which creates random number?",
-                  option1: "Math.floor()",
-                  option2: "Math.ceil()",
-                  option3: "Math.random()",
-                  option4: "Math.high",
-                  answer: "3"
-                },
-                {
-
-                  question: "What does array returns?",
-                  option1: "function",
-                  option2: "object",
-                  option3: "index number",
-                  option4: "data type",
-                  answer: "2"
-                },
-                {
-
-                  question: "Object property name & value are separated by?",
-                  option1: "semicolon ;",
-                  option2: "colon :",
-                  option3: "dot .",
-                  option4: "comma ,",
-                  answer: "2"
-                },
-                {
-
-                  question: "Object properties are separated by?",
-                  option1: "comma ,",
-                  option2: "dot .",
-                  option3: "colon :",
-                  option4: "semicolon ;",
-                  answer: "1"
-                },
-                {
-
-                  question: "What is the correct syntax for object initialization?",
-                  option1: "var var_name = {property_name:property_value}",
-                  option2: "var var_name = {property_value:property_name}",
-                  option3: "var var_value = {property_name:property_value}",
-                  option4: "object = {property_name:property_value}",
-                  answer: "1"
-                },
-                {
-
-                  question: "DOM stands for?",
-                  option1: "document object modification",
-                  option2: "document observed module",
-                  option3: "document object model",
-                  option4: "document object module",
-                  answer: "3"
-                },
               ]
             },
           ]
         },
+        
 
       ],
 
