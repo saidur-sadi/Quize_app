@@ -18,7 +18,7 @@ class App extends Component {
         {
           name: 'React',
           image: require("./images/react.jpg") ,
-          description:'React is a JavaScript library for building dynamic user interfaces efficiently. Developed by Facebook, it uses a virtual DOM and a declarative approach, allowing developers to create reusable components that update in response to data changes. Ideal for building interactive web applications.',
+          description:"React is a JavaScript library for building dynamic UIs. Declarative, efficient, and component-based, it simplifies web development for interactive interfaces.",
           subQuiz: [
             {
               name: 'Quiz 1', questions: '3', time: '30 sec', score: false,
